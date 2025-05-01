@@ -1,0 +1,34 @@
+#objectif::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.7);  overlay noir à 70% */
+
+  z-index: 1;
+}
+#contenu {
+  position: relative;
+  z-index: 2;
+}
+#titre_obj {
+  z-index: 3;
+}
+#imob {
+  height: 20rem;
+  object-fit: cover;
+  width: 100%;
+}
+img {
+  /* height: 200px;  fixe une hauteur uniforme */
+  /* object-fit: cover; recadre l’image pour qu’elle remplisse 
+
+   height: 400px;
+  object-fit: cover;
+  width: 100%;
+
+  width: 100%;
+ /* background-color: "red";  assure que l’image prend toute la largeur */
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lamineFit</string>
+    <string name="title_activity_main">lamineFit</string>
+    <string name="package_name">com.lamineFit.app</string>
+    <string name="custom_url_scheme">com.lamineFit.app</string>
+</resources>
