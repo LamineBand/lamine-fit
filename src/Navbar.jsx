@@ -48,6 +48,7 @@ function Navbar() {
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
+          style={{ width: 250 }}
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
@@ -71,26 +72,26 @@ function Navbar() {
             ></button>
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
               <li className="nav-item" id="li_of">
-                <Link className="mx-5" id="goupe_of" to={"/"}>
+                <Link className="" id="goupe_of" to={"/"}>
                   {" "}
                   Accueil{" "}
                 </Link>
               </li>
               <li className="nav-item" id="li_of">
-                <Link className="mx-5" id="goupe_of" to="/objectifs">
+                <Link className="" id="goupe_of" to="/objectifs">
                   Objectifs{" "}
                 </Link>
               </li>
               <li className="nav-item" id="li_of">
-                <Link className="mx-5" id="goupe_of" to={"/Exercices"}>
+                <Link className="" id="goupe_of" to={"/Exercices"}>
                   {" "}
                   Exercices{" "}
                 </Link>
               </li>
               <li className="nav-item" id="li_of">
-                <Link className="mx-5" id="goupe_of" to={"/Conseils"}>
+                <Link className="" id="goupe_of" to={"/Conseils"}>
                   {" "}
                   Conseils{" "}
                 </Link>
